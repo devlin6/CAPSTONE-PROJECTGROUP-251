@@ -1,0 +1,30 @@
+{
+  "name": "musashi",
+  "version": "0.8.0",
+  "description": "UI Starter Kit",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argelomnes/musashi.git"
+  },
+  "keywords": [],
+  "author": "argelomnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/argelomnes/musashi/issues"
+  },
+  "homepage": "https://github.com/argelomnes/musashi#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

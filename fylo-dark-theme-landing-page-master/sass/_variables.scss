@@ -1,0 +1,37 @@
+// media queries
+@custom-media --phone-s (min-width: 375px);
+@custom-media --phone (min-width: 500px);
+@custom-media --tablet (min-width: 750px);
+@custom-media --laptop (min-width: 992px);
+@custom-media --desktop (min-width: 1200px);
+
+:root {
+    // colors
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(0, 0%, 74%);
+
+    --darkblue-100: hsl(219, 30%, 18%); // testimonials background
+    --darkblue-200: hsl(217, 28%, 15%); // intro and email sign up background
+    --darkblue-300: hsl(218, 28%, 13%); // main background
+    --darkblue-400: hsl(216, 53%, 9%); // footer background
+
+    --cyan: hsl(176, 68%, 64%); // inside call-to-action gradient
+    --blue: hsl(198, 60%, 50%); // inside call-to-action gradient
+
+    --transparent-black: rgba(2, 2, 2, 0.4);
+
+    // gradient
+    --gradient-primary: var(--cyan) linear-gradient(to right, var(--cyan), var(--blue));
+
+    // svg colors
+    --svg-white: invert(100%);
+    --svg-cyan: invert(95%) sepia(92%) saturate(613%) hue-rotate(95deg) brightness(92%)
+        contrast(90%);
+
+    // font-families
+    --font-sans: 'Open Sans', sans-serif;
+    --font-sans-accent: 'Raleway', sans-serif;
+
+    // dimensions
+    --grid-width: 1440px;
+}
